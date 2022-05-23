@@ -1,0 +1,99 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h1 {
+  margin: 8% 0 1%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #006837;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+@media (max-width: 519px) {
+  body h1 {
+    margin: 30% 0 2%;
+    font-size: 24px;
+  }
+}
+
+body div {
+  max-width: 520px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f9c582;
+  color: #467745;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 519px) {
+  body div {
+    width: 100%;
+  }
+}
+
+body div i {
+  font-weight: 300;
+}
+
+body div input {
+  width: 480px;
+  max-width: 480px;
+  height: 64px;
+  padding-left: 20px;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  color: #98a991;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 519px) {
+  body div input {
+    width: 100%;
+    min-width: 40px;
+  }
+}
+
+body div ::-webkit-input-placeholder {
+  color: #98a991;
+  opacity: 1;
+}
+
+body div :-ms-input-placeholder {
+  color: #98a991;
+  opacity: 1;
+}
+
+body div ::-ms-input-placeholder {
+  color: #98a991;
+  opacity: 1;
+}
+
+body div ::placeholder {
+  color: #98a991;
+  opacity: 1;
+}
+
+body button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 20px 20px 0;
+  background-color: #f9c582;
+  text-align: center;
+  color: #006837;
+  font-weight: 700;
+  font-size: 31px;
+}
+/*# sourceMappingURL=style.css.map */
